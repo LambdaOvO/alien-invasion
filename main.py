@@ -5,7 +5,7 @@
     玩法：上下左右键控制飞船，空格发射子弹，每消灭一波外星人将提升游戏难度。
             q:退出游戏   p:开始/重开游戏
 """
-
+from time import sleep
 import pygame
 from settings import Settings
 from ship import Ship
@@ -73,4 +73,7 @@ def run_game():
         gf.update_screen(ai_settings, screen, stats, sb, ship, aliens, bullets, play_button)
 
 
-run_game()
+if __name__ == '__main__':
+    run_game()
+
+

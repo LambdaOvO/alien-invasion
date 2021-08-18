@@ -37,6 +37,7 @@ def check_keydown_events(event, ai_settings, screen, stats, sb, ship, aliens, bu
         # 退出游戏
         sys.exit()
 
+
     # 按P 若条件成立则(开始/重开)游戏
     elif event.key == pygame.K_p:
         # 查看是否存在play按钮（是否为游戏结束状态）
