@@ -14,7 +14,7 @@ class Ship(Sprite):
 
         # 创建图片对象(加载飞船图片)
         # 获取图片和屏幕的外接矩形(rect对象/矩形对象)
-        self.image = pygame.image.load('images/ship.bmp')
+        self.image = pygame.image.load('images\\ship.bmp')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
